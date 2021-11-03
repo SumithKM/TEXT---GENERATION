@@ -16,6 +16,7 @@ Downloading and uncompressing the IMDB movie reviews dataset
 !tar -xf aclImdb_v1.tar.gz
  Creating a dataset from text �les (one �le = one sample)
  
+ 
  import tensorflow as tf
 from tensorflow import keras
 dataset = keras.utils.text_dataset_from_directory(
